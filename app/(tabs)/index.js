@@ -12,7 +12,7 @@ import {
 import { datosChat } from './cerebro';
 
 // --- CONFIGURACIÓN ---
-const API_URL = 'http://192.168.137.7:3000';
+const API_URL = 'https://asistente-movil-free.onrender.com/registro';
 const normalizar = (texto) => texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s+]/gi, "");
 
 // --- COMPONENTES AUXILIARES ---
